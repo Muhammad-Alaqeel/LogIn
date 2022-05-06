@@ -1,0 +1,23 @@
+
+
+ .myButton{
+    margin-top: 10px;
+ 
+   border-radius: 23px;
+   color: #ffffff;
+   font-size: 18px;
+   font-family: Georgia;
+   padding: 0px 25px 0px 25px;
+   border: none;
+   background-color: #7259df;
+  
+ }
+ 
+ .myButton:hover {
+   background: #6249d1;
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   transition-duration: 0.3s;
+transition-property: background-color;
+
+ }

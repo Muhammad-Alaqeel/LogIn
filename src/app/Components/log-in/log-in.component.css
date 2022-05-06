@@ -1,0 +1,110 @@
+.Log-in{
+    
+    height: 100%;
+  background-color: rgb(142, 246, 228);
+}
+.outer{
+    z-index: 2;
+    border-radius: 20px;
+background-color: #D59BF6;
+margin:30px;
+padding: 5%;
+opacity: 0.95;
+box-shadow: 0px 0px 54px -5px rgba(0,0,0,0.51);
+-webkit-box-shadow: 0px 0px 54px -5px rgba(0,0,0,0.51);
+-moz-box-shadow: 0px 0px 54px -5px rgba(0,0,0,0.51);
+
+}
+
+form{
+    min-width: 200px;
+    width: 100%;
+
+}
+
+.outer2{
+    max-width: 300px;
+    text-align: center;
+    padding: 50px;
+    background-color: #4485da;
+
+}
+
+input{
+    margin-top: 25px;
+    background-color:rgb(232, 249, 253);
+    border-radius: 14px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 220px;
+  display: inline;
+    filter: drop-shadow(0px 1px 6px rgb(113, 210, 231));}
+#shape{ 
+    position: absolute;
+    background-color: #7259df;
+    z-index: 1;
+    left: 0;
+    width: 70%;
+    height: 60%;
+    clip-path: circle(58.5% at 17% 0);
+    background-image: radial-gradient(circle at 71.12% 59.85%, #e6b0ff 0, #bf90f2 25%, #8f6cd8 50%, #594bbf 75%, #0033ab 100%); }
+ #shape2{ 
+    position: absolute;
+    background-color: #5993df;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+    width: 60%;
+    height: 60%;
+    clip-path: circle(58.5% at 100% 100%);
+    background-image: radial-gradient(circle at 34.55% 51.35%, #dafdff 0, #afe7ff 16.67%, #7ecefb 33.33%, #3cb5f2 50%, #009ce9 66.67%, #0084e0 83.33%, #006ed7 100%);
+ }
+
+ 
+
+  .Log-in {
+    background: linear-gradient(318deg, rgb(142, 246, 228), #7ae4f0);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 16s ease infinite;
+    -moz-animation: AnimationName 16s ease infinite;
+    animation: AnimationName 16s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:11% 0%}
+    50%{background-position:90% 100%}
+    100%{background-position:11% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:11% 0%}
+    50%{background-position:90% 100%}
+    100%{background-position:11% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:11% 0%}
+    50%{background-position:90% 100%}
+    100%{background-position:11% 0%}
+}
+h1{
+    color: white;
+}
+
+@media only screen and (max-width: 575px) {
+    .outer2 {
+     display: none;
+    }
+    input{
+        width: 259px;
+
+    }
+  }
+
+
+
+  input.ng-invalid.ng-touched{
+      border: 2px solid red;
+  }
+  input.ng-valid.ng-touched{
+    border: 2px solid rgb(0, 255, 21);
+}

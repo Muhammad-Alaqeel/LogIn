@@ -3,14 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LogInComponent } from './Components/log-in/log-in.component';
+import { ButtonComponent } from './Components/button/button.component';
+import { InputComponent } from './Components/input/input.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
+ 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LogInComponent,
+    ButtonComponent,
+    InputComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
+    ,ReactiveFormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

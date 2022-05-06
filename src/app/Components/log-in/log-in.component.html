@@ -1,0 +1,25 @@
+<div id="shape"></div>
+
+<div class="Log-in d-flex justify-content-center align-items-center text-center">
+    <div class="outer">
+    <form  [formGroup]="loginForm" class="form-signin myForm">
+       
+            
+    <img  src="https://pbs.twimg.com/media/EObQ5KQX0AA_EOm.png" alt="sign up" width="72" height="72">
+   
+<div class="inline">
+    <input type="email" id="inputEmail" formControlName="email" class="form-control" placeholder="Email address" required="" autofocus="">
+</div>
+    <input type="password" id="inputPassword" formControlName="password" class="form-control" placeholder="Password" required="">
+    <div class="checkbox mb-3">
+     
+    </div>
+<app-button [Text]="'Sign up'" (Clicked)="fetch()"></app-button>   
+
+  </form>
+</div><div class="outer outer2" >
+    <h1>Welcom Back</h1>
+
+</div>
+<div id="shape2"></div>
+</div>
